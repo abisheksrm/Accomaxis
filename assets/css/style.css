@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-toggle {
   position: fixed;
-  top: 35px;
+  top: 20px;
   right: 15px;
   z-index: 9998;
   border: 0;
@@ -391,11 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   padding-bottom: 20px;
 }
-.img_sha {
-  -webkit-box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15) !important;
-  box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15) !important;
-  border-radius: 5px;
-}
+
 
 .about_par
 {
