@@ -5,11 +5,12 @@ function scrollFunction() {
     document.getElementById("header").style.padding= "20px 0";
     document.getElementById("header").style.backgroundColor= "#fff";
 
-   
+    document.getElementById("header").style.boxShadow= "0px 2px 15px rgba(0, 0, 0, 0.05)";
  
   } else {
     document.getElementById("header").style.padding= "30px 0";
     document.getElementById("header").style.backgroundColor= "";
+    document.getElementById("header").style.boxShadow= "";
 
   }
 }
