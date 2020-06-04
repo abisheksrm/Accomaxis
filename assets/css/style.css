@@ -75,19 +75,28 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  padding: 10px 0 10px 65px;
+  padding: 10px 0 10px 20px;
 }
 
 .nav-menu a {
   display: block;
   position: relative;
   color: #5a5959;
-  font-size: 18px;
+  font-size: 1rem;
  font-weight:400;
+ padding: 8px 20px;
+ line-height: 21px;
+    letter-spacing: 0.05em;
+    
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #2b9eee;
+  color: #fff ;
+  background-color: #2F6DEA;
+  -webkit-box-shadow: 0 20px 30px 0 rgba(90,70,176,.3);
+    box-shadow: 0 20px 30px 0 rgba(90,70,176,.3);
+  
+    border-radius: 10px;
 }
 
 .nav-menu .drop-down ul {
@@ -282,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 #banner {
   width: 100%;
   height: 100vh;
-  background: url("../img/slide-4.jpg") no-repeat;
+  background: url("../img/banner-update.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -297,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   top: 0;
   bottom: 0;
-  /*background: rgba(43, 158, 238, 0.8);*/
+ background: rgba(255,255,255, 0.5);
 }
 
 #banner .container {
@@ -349,9 +358,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn_ban
  {
-  padding: 10px 20px;
-  background:#2b9eee;
-  border-radius: 4px;
+  padding: 8px 20px;
+  background:#2F6DEA ;
+  border-radius: 15px;
   color: #fff;
   border: 1px solid transparent;
   -webkit-box-shadow: 0 20px 30px 0 rgba(90,70,176,.3);
@@ -360,9 +369,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn_ban:hover
  {
-  color: #2b9eee;
+  color: #2F6DEA ;
   background: transparent;
-  border-color:#2b9eee;
+  border-color:#2F6DEA ;
   -webkit-box-shadow: none;
   box-shadow: none;
   
@@ -423,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
 }
  
 .section-title .title::before {
-  background-color: #2b9eee;
+  background-color: #2F6DEA ;
   width: 130px;
   position: absolute;
   content: "";
@@ -485,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
 .pr_log_img
 {
 
-  max-width: 300px;
+  
   padding-bottom: 20px;
 }
 
@@ -516,7 +525,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn_c
  {
    padding: 8px 20px;
-  background: #2b9eee;;
+  background: #2F6DEA ;;
   border-radius: 15px;
   border: 1px solid transparent;
   -webkit-box-shadow: 0 20px 30px 0 rgba(90,70,176,.3);
@@ -525,9 +534,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn_c:hover
  {
-  color: #2b9eee;;
+  color: #2F6DEA ;;
   background: transparent;
-  border-color: #2b9eee;;
+  border-color: #2F6DEA ;;
   -webkit-box-shadow: none;
   box-shadow: none;
   
@@ -568,7 +577,7 @@ padding-top: 80px;
 .btn_con
  {
   padding: 8px 20px;
-  background: #2b9eee;;
+  background: #2F6DEA ;;
   border-radius: 15px;
   border: 1px solid transparent;
   -webkit-box-shadow: 0 20px 30px 0 rgba(90,70,176,.3);
@@ -577,9 +586,9 @@ padding-top: 80px;
 }
 .btn_con:hover
  {
-  color: #2b9eee;;
+  color: #2F6DEA ;;
   background: transparent;
-  border-color: #2b9eee;;
+  border-color: #2F6DEA ;;
   -webkit-box-shadow: none;
   box-shadow: none;
   
