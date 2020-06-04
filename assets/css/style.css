@@ -1,7 +1,7 @@
 
 body {
-  font-family: Roboto,Arial,sans-serif;
-  color: #444444;
+  font-family: 'Open Sans', sans-serif;
+  color: #5a5959;
 }
 
 a {
@@ -14,7 +14,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Roboto,Arial,sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 
